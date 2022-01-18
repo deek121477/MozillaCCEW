@@ -1,0 +1,136 @@
+
+.home{
+  display:flex;
+  background:url("images/mozz.png") no-repeat left center ;
+  background-size: 850px 350px;
+  bottom: 70;
+  height:90vh;
+  min-height: 500px;
+  background-color: black;
+  color: #fff;
+  background-attachment: scroll;
+
+}
+.home .max-width{
+  margin: 200px auto auto 800px;
+  padding-left:90px;
+}
+.home .home-content .text1{
+  font-size: 35px;
+}
+.home .home-content .text2{
+  font-size: 25px;
+
+}
+.home .home-content .text3{
+  font-size: 35px;
+
+}
+
+.home .home-content .text3 span{
+  color:#FFCB2A;
+   font-weight:700px;
+}
+#menu{
+  color: #fff;
+}
+
+@media(max-width:1300px)
+{
+  .home .max-width{
+    margin:200px auto auto 800px;
+    padding-left:60px;
+  }
+  .home .home-content .text3 span{
+    color:#FFCB2A;
+     font-weight:700px;
+  }
+  .home .home-content .text1{
+    font-size: 30px;
+  }
+  .home .home-content .text2{
+    font-size: 19px;
+
+  }
+  .home .home-content .text3{
+    font-size: 30px;
+
+  }
+}
+@media(max-width:1104px){
+  .home .max-width{
+    width:50%;
+  }
+  .home-content{
+    position: absolute;
+    bottom: 70;
+  }
+  .home .home-content .text3 span{
+    color:#FFCB2A;
+     font-weight:700px;
+  }
+  .home .home-content .text1{
+    font-size: 30px;
+  }
+  .home .home-content .text2{
+    font-size: 20px;
+
+  }
+  .home .home-content .text3{
+    font-size: 30px;
+
+  }
+}
+@media(max-width:991px){
+  .max-width{
+    width: 50%;
+  }
+  .home{
+   background-position: center;
+  }
+  .home-content{
+    position: absolute;
+    top:900;
+  }
+}
+@media(max-width:991px){
+      .home{
+        background-size:850px 250px;
+        background-position: center;
+      }
+
+      .home .home-content .text2{
+        width: 100%;
+      }
+      .home .home-content .text3{
+        width: 100%;
+      }
+      .max-width{
+        max-width: 800px;
+      }
+
+      @media(max-width:800px){
+        .home{
+          background-size:650px 450px;
+          background-position:center;
+        }
+        .home .max-width{
+          position:absolute;
+          top:100;
+          left:20;
+          float:right;
+        }
+      }
+      @media(max-width:500px){
+        .home{
+          background-size:450px 350px;
+          background-position:center;
+        }
+        .home .max-width{
+          position:absolute;
+          top:100;
+          left:20;
+          float:right;
+        }
+      }
+  }
